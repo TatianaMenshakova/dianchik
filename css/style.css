@@ -1,99 +1,111 @@
 body {
-  background-color: #e6e6ff;
-	font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #ff1493;
+	font-family: 'Rubik Vinyl', cursive;
 	color: #333;
   padding: 2rem;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-h1 {
+.heading {
   text-align: center;
   font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 2rem;
-	background-color: #00004d;
-	border: 1px solid white;
-	width: 43%;
+  margin-top: 1rem;
+	background-color: #ffe6f3;
+	border: 5px dashed #800042;
+	width: 60%;
+	height: 20%; 
 	margin-left: auto;
   margin-right: auto;
-	padding: 1rem;
+	padding: 0.5rem 1rem;
 	border-radius: 30px;
-	color: white;
+	color: #800042;
 }
 
-#planets {
-	width: 100%;
-	border-collapse: collapse;
-  margin: 2rem auto; 
-	background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	border-radius: 30px;
-  overflow: hidden;
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+	padding: 2rem;
 }
 
-#planets th {
-  background-color: #00004d;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-#planets td {
-  padding: 1rem;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-#planets tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-#planets tr:hover {
-  background-color: #e0e0ff;
-}
-
-td, th {
-  border: 1px solid;
-  text-align: center;
-  vertical-align: middle;
-}
- 
-.planet-img {
+.video-box {
+  border: 5px solid #800042;
+  border-radius: 15px;
+  background-color: #ffe6f3;
   display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
 }
 
-.planet-img:hover {
-  transform: scale(1.6);
-  position: relative;
-  border: none;
+.gif {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.link {
+.gifs {
+	width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.fuck {
+	width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.champagne {
+	width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.smashed {
+	width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.congrats {
 	text-align: center;
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-	background-color: #00004d;
-	border: 1px solid white;
-	width: 43%;
+  font-size: 2.5rem;
+	font-family: Marck Script, cursive;
+  margin-top: 1rem;
+	background-color: #ffe6f3;
+	border: 5px dashed #800042;
+	width: 90%;
+	height: 20%; 
 	margin-left: auto;
   margin-right: auto;
-	padding: 0.5rem;
+	padding: 0.5rem 1rem;
 	border-radius: 30px;
-	color: white;
+	color: #800042;
 }
 
-.nasa {
-	color:white;
+.poem {
+	text-align: center;
+  font-size: 2.5rem;
+	font-family: Marck Script, cursive;
+  margin-top: 1rem;
+	background-color: #ffe6f3;
+	border: 5px dashed #800042;
+	width: 60%;
+	height: 20%; 
+	margin-left: auto;
+  margin-right: auto;
+	padding: 0.5rem 1rem;
+	border-radius: 30px;
+	color: #800042;
 }
+
+
+
 	
 
   
