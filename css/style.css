@@ -36,15 +36,20 @@ body {
 
 .gif {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
+  padding: 1rem;
 }
 
 .gifs {
-	max-width: 500px;
+  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .photos {
