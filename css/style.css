@@ -7,18 +7,35 @@ body {
 
 .heading {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
-  background-color: #ffe6f3;
   border: 5px dashed #800042;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 30px;
   color: #800042;
   box-sizing: border-box;
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
+
+  background: repeating-linear-gradient(
+    90deg,
+    #ffd700,
+    #ffd700 20px,
+    #d9b3ff 20px,
+    #d9b3ff 40px
+  );
+  animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200px 200px;
+  }
 }
 
 .video {
