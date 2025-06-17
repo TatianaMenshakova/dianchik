@@ -223,6 +223,23 @@ body {
   background-color: #e91e63;
 }
 
+@media (max-width: 600px) {
+  .heading, .poem, .gift, .congrats {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .gifs, .fuck, .champagne, .smashed {
+    width: 100%;
+    height: auto;
+  }
+
+  .gift-label {
+    font-size: 16px;
+    padding: 15px 25px;
+  }
+}
+
 
 
 	
