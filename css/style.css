@@ -42,7 +42,7 @@ body {
 }
 
 .gifs {
-	max-width: 500px;
+	max-width: 100px;
   height: auto;
   border-radius: 10px;
 }
@@ -55,19 +55,19 @@ body {
 }
 
 .fuck {
-	max-width: 500px;
+	max-width: 100px;
   height: auto;
   border-radius: 10px;
 }
 
 .champagne {
-	width: 500px;
+	width: 100px;
   height: auto;
   border-radius: 10px;
 }
 
 .smashed {
-	max-width: 500px;
+	max-width: 100px;
   height: auto;
   border-radius: 10px;
 }
