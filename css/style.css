@@ -139,7 +139,7 @@ body {
   padding: 20px 40px;
   background-color: #ff4081;
   color: white;
-  font-size: 20px;
+  font-size: 50px;
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s;
@@ -153,6 +153,9 @@ body {
   margin-top: 20px;
   padding: 30px;
   background-color: #fff3e0;
+	font-family: Marck Script, cursive;
+	font-size: 40px;
+	text-align: center;
   border: 2px dashed #ff9800;
   border-radius: 10px;
   display: none;
@@ -202,6 +205,22 @@ body {
     transform: translateY(300px) rotate(720deg);
     opacity: 0;
   }
+}
+
+.gift-download {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.gift-download:hover {
+  background-color: #e91e63;
 }
 
 
