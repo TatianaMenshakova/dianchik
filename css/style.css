@@ -7,7 +7,7 @@ body {
 
 .heading {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
 	background-color: #ffe6f3;
 	border: 5px dashed #800042;
@@ -38,11 +38,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .gifs {
-	max-width: 100px;
+	max-width: 50px;
   height: auto;
   border-radius: 10px;
 }
@@ -51,23 +51,23 @@ body {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .fuck {
-	max-width: 100px;
+	max-width: 50px;
   height: auto;
   border-radius: 10px;
 }
 
 .champagne {
-	width: 100px;
+	width: 50px;
   height: auto;
   border-radius: 10px;
 }
 
 .smashed {
-	max-width: 100px;
+	max-width: 50px;
   height: auto;
   border-radius: 10px;
 }
