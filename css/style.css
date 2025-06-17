@@ -48,30 +48,21 @@ body {
 }
 
 .photos {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
-	max-width: 500%;
-  height: auto;
-  display: block;
+  padding: 1rem;
 }
 
-.fuck {
-	max-width: 500px;
+.photos img {
+  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
-}
-
-.champagne {
-	max-width: 500px;
-  height: auto;
-  border-radius: 10px;
-}
-
-.smashed {
-	max-width: 500px;
-  height: auto;
-  border-radius: 10px;
+  object-fit: cover;
 }
 
 .congrats {
