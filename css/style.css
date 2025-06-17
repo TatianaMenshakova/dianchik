@@ -9,15 +9,15 @@ body {
   text-align: center;
   font-size: 2rem;
   margin-top: 1rem;
-	background-color: #ffe6f3;
-	border: 5px dashed #800042;
-	width: 90%;
-	height: 20%; 
-	margin-left: auto;
+  background-color: #ffe6f3;
+  border: 5px dashed #800042;
+  width: 90%;
+  margin-left: auto;
   margin-right: auto;
-	padding: 0.5rem 1rem;
-	border-radius: 30px;
-	color: #800042;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  color: #800042;
+  box-sizing: border-box;
 }
 
 .video {
